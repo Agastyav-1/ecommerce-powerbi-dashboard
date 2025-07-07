@@ -45,7 +45,7 @@ ecommerce-dashboard/
 
 ## 📊 Data Model
 
-![Data_model] (Ecommerce Dashboard/Modeling and measures images/Data_Model.png)
+![Data Model](Modeling%20and%20measures%20images/Data_Model.png)
 
 This dashboard follows a **star schema** with the central Fact_Sales table connected to dimension tables for Customer, Product, Campaign, and Date. Measures are stored in a separate `_measures` table for better manageability.
 
