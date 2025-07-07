@@ -45,7 +45,7 @@ ecommerce-dashboard/
 
 ## 📊 Data Model
 
-![Data Model](Modeling%20and%20measures%20images/Data_Model.png)
+![Data Model](https://github.com/Agastyav-1/ecommerce-powerbi-dashboard/blob/db73b1f9c91a2c6f0b07b42026f997794d9fae0d/Ecommerce%20Dashboard/Modeling%20and%20measures%20images/Data_Model.png)
 
 This dashboard follows a **star schema** with the central Fact_Sales table connected to dimension tables for Customer, Product, Campaign, and Date. Measures are stored in a separate `_measures` table for better manageability.
 
