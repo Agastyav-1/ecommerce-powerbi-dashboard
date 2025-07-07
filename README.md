@@ -60,7 +60,7 @@ AOV = DIVIDE(SUM(Fact_sales[TotalAmount]), SUM(Fact_sales[Quantity]))
 **Why this formula?**  
 To calculate AOV, I divided total sales revenue by the number of items sold. This gives a precise average per order across all transactions.
 
-📷 Screenshot: ![AOV DAX](images/aov-dax.png)
+📷 Screenshot: ![AOV DAX](https://github.com/Agastyav-1/ecommerce-powerbi-dashboard/blob/40b98048b789863aee311b474c6a32de62560bd9/Ecommerce%20Dashboard/Modeling%20and%20measures%20images/AOV.png)
 
 ---
 
@@ -75,7 +75,7 @@ DIVIDE(
 **Why this formula?**  
 This DAX is designed to show conversion relative to total distinct customers. Using `ALL(Fact_Sales)` in the denominator removes filters and helps understand segment performance within the entire customer base.
 
-📷 Screenshot: ![Conversion DAX](images/conversion-dax.png)
+📷 Screenshot: ![Conversion DAX](https://github.com/Agastyav-1/ecommerce-powerbi-dashboard/blob/40b98048b789863aee311b474c6a32de62560bd9/Ecommerce%20Dashboard/Modeling%20and%20measures%20images/conversion%20rate.png)
 
 ---
 
@@ -90,7 +90,7 @@ DIVIDE(
 **Why this formula?**  
 It calculates the proportion of transactions marked as returned. Using a calculated condition inside `CALCULATE` helps isolate only returned rows while keeping the base denominator as total sales rows.
 
-📷 Screenshot: ![Return Rate DAX](images/returnrate-dax.png)
+📷 Screenshot: ![Return Rate DAX](https://github.com/Agastyav-1/ecommerce-powerbi-dashboard/blob/40b98048b789863aee311b474c6a32de62560bd9/Ecommerce%20Dashboard/Modeling%20and%20measures%20images/Return%20rate.png)
 
 ---
 
@@ -108,13 +108,13 @@ RETURN
 **Why this formula?**  
 I used this to dynamically compare AOV against a fixed business goal ($200) only when a valid period (YearMonth) is selected. This prevents cluttering the visuals when no time range is applied.
 
-📷 Screenshot: ![Target AOV DAX](images/targetaov-dax.png)
+📷 Screenshot: ![Target AOV DAX](https://github.com/Agastyav-1/ecommerce-powerbi-dashboard/blob/40b98048b789863aee311b474c6a32de62560bd9/Ecommerce%20Dashboard/Modeling%20and%20measures%20images/Target%20AOV.png)
 
 ---
 
 ## 📊 Dashboard Preview
 
-![Dashboard](images/dashboard-overview.png)
+![Dashboard](https://github.com/Agastyav-1/ecommerce-powerbi-dashboard/blob/40b98048b789863aee311b474c6a32de62560bd9/Ecommerce%20Dashboard/Modeling%20and%20measures%20images/Dashboard.png)
 
 The dashboard supports filtering by year, month, product category, and campaign type. KPIs are visualized using a mix of cards, clustered column charts, and matrix tables for quick executive insights.
 
